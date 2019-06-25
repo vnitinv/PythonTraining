@@ -29,30 +29,3 @@ Launch ipython notebook from the folder which contains the notebooks. Open each 
     Cell > All Output > Clear
     
 This will clear all the outputs and now you can understand each statement and learn interactively.
-
-## Table of contents
-
-
-[00 - Introduction and Installation](http://nbviewer.ipython.org/github/rajathkumarmp/Python-Lectures/blob/master/00.ipynb)
-
-
-[01 - Variable, Operators and Built-in Functions](http://nbviewer.ipython.org/github/rajathkumarmp/Python-Lectures/blob/master/01.ipynb)
-
-
-[02 - Print Statement, Precision and FieldWidth](http://nbviewer.ipython.org/github/rajathkumarmp/Python-Lectures/blob/master/02.ipynb)
-
-
-[03 - Lists, Tuples and Sets](http://nbviewer.ipython.org/github/rajathkumarmp/Python-Lectures/blob/master/03.ipynb)
-
-
-[04 - Strings and Dictionaries](http://nbviewer.ipython.org/github/rajathkumarmp/Python-Lectures/blob/master/04.ipynb)
-
-
-[05 - Control Flow Statements](http://nbviewer.ipython.org/github/rajathkumarmp/Python-Lectures/blob/master/05.ipynb)
-
-
-[06 - Functions](http://nbviewer.ipython.org/github/rajathkumarmp/Python-Lectures/blob/master/06.ipynb)
-
-
-[07 - Classes](http://nbviewer.ipython.org/github/rajathkumarmp/Python-Lectures/blob/master/07.ipynb)
-
