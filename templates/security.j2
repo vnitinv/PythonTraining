@@ -1,0 +1,9 @@
+{%- for x in srcruleset %}
+set security nat source rule-set {{ x.name }} from {{ x.ftype }} {{ x.fname }}
+set security nat source rule-set {{ x.name }} to {{ x.ftype }} {{ x.fname }}
+        {%- for y in x.rules %}
+        set security nat source rule-set {{ x.name }} rule {{ y.rname }} match source-address 3.3.4.4/32
+        set security nat source rule-set {{ x.name }} rule {{ y.rname }} match destination-address {{ y.dstadd }}
+        set security nat source rule-set {{ x.name }} rule {{ y.rname }} then source-nat pool b-y-p
+        {%- endfor %}
+{%- endfor %}
